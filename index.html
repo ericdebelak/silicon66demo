@@ -56,8 +56,8 @@
         </nav>
       </div>
     </div>
-    <div class='row'>
-      <div class='col-md-2 sidebar-indicators'>
+    <div class='flex-box'>
+      <aside class='sidebar-indicators'>
         <!-- Nav tabs -->
         <ul id='sidebar-tabs' class="nav nav-tabs" role="tablist">
           <li role="presentation" class="active"><a href="#latest" aria-controls="latest" role="tab" data-toggle="tab">Latest</a></li>
@@ -75,8 +75,8 @@
             <p>Popular</p>
           </div>
         </div>
-      </div>
-      <div class="col-md-10">
+      </aside>
+      <section class='content'>
         <div id="carousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -89,19 +89,19 @@
             <div class="item active">
               <img src='http://lorempixel.com/1200/400/'>
               <div class="carousel-caption">
-                Something
+                <h1>Something</h1>
               </div>
             </div>
             <div class="item">
               <img src='http://lorempixel.com/1200/400/'>
               <div class="carousel-caption">
-                Something
+                <h1>Something</h1>
               </div>
             </div>
             <div class="item">
               <img src='http://lorempixel.com/1200/400/'>
               <div class="carousel-caption">
-                Something
+                <h1>Something</h1>
               </div>
             </div>
           </div>
@@ -116,8 +116,51 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
-      </div>
-    </div>
+        <div class="container body-container">
+          <div class="row">
+            <div class='body-content col-md-9'>
+              <h4 class='green heading'>LATEST</h4>
+              <div class='row article'>
+                <div class="col-md-4">
+                  <img src='http://lorempixel.com/600/300/' class='img-responsive img-rounded'>
+                </div>
+                <div class='col-md-8'>
+                  <p class="green no-bottom-margin">Community Things to Do</p>
+                  <h4 class="no-bottom-margin no-top-margin">300 Days of Sunshine</h4>
+                  <h2 class='orange heading no-top-margin'>ABQ Entrepreneurs' Favorite Day Trips</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                  <img src='http://lorempixel.com/30/30/' class='img-rounded'><span class='light'> &nbsp; CONTRIBUTING AUTHOR &nbsp;&nbsp;&nbsp; <i class="fa fa-clock-o"></i> 5 Minute Read</span>
+                </div>
+              </div>
+              <div class='row article'>
+                <div class="col-md-4">
+                  <img src='http://lorempixel.com/600/300/' class='img-responsive img-rounded'>
+                </div>
+                <div class='col-md-8'>
+                  <p class="green no-bottom-margin">Investing Growth</p>
+                  <h2 class='blue heading no-top-margin'>10 ABQ Companies You Should Follow on Twitter</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                  <img src='http://lorempixel.com/30/30/' class='img-rounded'><span class='light'> &nbsp; CONTRIBUTING AUTHOR &nbsp;&nbsp;&nbsp; <i class="fa fa-clock-o"></i> 5 Minute Read</span>
+                </div>
+              </div>
+              <div class='row article'>
+                <div class="col-md-4">
+                  <img src='http://lorempixel.com/600/300/' class='img-responsive img-rounded'>
+                </div>
+                <div class='col-md-8'>
+                  <p class="green no-bottom-margin">Advice, Local News</p>
+                  <h2 class='blue heading no-top-margin'>NMVC: 10 Tips for Framing Your Pitch</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                  <img src='http://lorempixel.com/30/30/' class='img-rounded'><span class='light'> &nbsp; CONTRIBUTING AUTHOR &nbsp;&nbsp;&nbsp; <i class="fa fa-clock-o"></i> 5 Minute Read</span>
+                </div>
+              </div>
+            </div>
+            <div class='col-md-3'>
+              contributing
+            </div>
+          </div><!-- row -->
+        </div><!-- container -->
+      </section>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
