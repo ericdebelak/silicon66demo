@@ -8,17 +8,19 @@
   border-bottom: 150px solid transparent;
 }
 .social-container {
-  height: 50px;
+  height: 48px;
   background: #00adc6;
   margin-bottom: 40px;
 }
 .social-icons ul a {
   color: #fff;
-  margin-top: 5px;
+  font-size: 20px;
 }
 .main-nav .nav-pills>li>a {
   border-radius: 0px !important;
   color: #493627;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 .main-nav .nav-pills>li.active>a, .main-nav .nav-pills>li.active:hover>a {
   background: #8cd600;
@@ -30,7 +32,7 @@
     font-size: 0;
     width: 0;
     height: 0;
-    border-top: 40px solid #8cd600;
+    border-top: 45px solid #8cd600;
     border-bottom: 0px solid transparent;
     border-left: 0px solid transparent;
     border-right: 7px solid transparent;
@@ -45,7 +47,7 @@
     width: 0;
     height: 0;
     border-top: 0px solid transparent;
-    border-bottom: 40px solid #8cd600;
+    border-bottom: 45px solid #8cd600;
     border-left: 7px solid transparent;
     border-right: 0px solid #8cd600;
     position: absolute;
@@ -62,7 +64,7 @@
     font-size: 0;
     width: 0;
     height: 0;
-    border-top: 40px solid #493627;
+    border-top: 45px solid #493627;
     border-bottom: 0px solid transparent;
     border-left: 0px solid transparent;
     border-right: 7px solid transparent;
@@ -77,7 +79,7 @@
     width: 0;
     height: 0;
     border-top: 0px solid transparent;
-    border-bottom: 40px solid #493627;
+    border-bottom: 45px solid #493627;
     border-left: 7px solid transparent;
     border-right: 0px solid #493627;
     position: absolute;
