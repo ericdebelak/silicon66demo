@@ -1,0 +1,86 @@
+.logo {
+  background: #fca311;
+}
+.logo-after {
+  height: 0;
+  width: 0;
+  border-left: 30px solid #fca311;
+  border-bottom: 150px solid transparent;
+}
+.social-container {
+  height: 50px;
+  background: #00adc6;
+  margin-bottom: 40px;
+}
+.social-icons ul a {
+  color: #fff;
+  margin-top: 5px;
+}
+.main-nav .nav-pills>li>a {
+  border-radius: 0px !important;
+  color: #493627;
+}
+.main-nav .nav-pills>li.active>a, .main-nav .nav-pills>li.active:hover>a {
+  background: #8cd600;
+  color: #fff;
+}
+.main-nav .nav-pills>li.active>a:before, .main-nav .nav-pills>li.active:hover>a:before {
+    content:'';
+    line-height: 0;
+    font-size: 0;
+    width: 0;
+    height: 0;
+    border-top: 40px solid #8cd600;
+    border-bottom: 0px solid transparent;
+    border-left: 0px solid transparent;
+    border-right: 7px solid transparent;
+    position: absolute;
+    top: 0;
+    right: -7px;
+}
+.main-nav .nav-pills>li.active>a:after, .main-nav .nav-pills>li.active:hover>a:after {
+    content:'';
+    line-height: 0;
+    font-size: 0;
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-bottom: 40px solid #8cd600;
+    border-left: 7px solid transparent;
+    border-right: 0px solid #8cd600;
+    position: absolute;
+    top: 0px;
+    left: -7px;
+}
+.main-nav .nav-pills>li:hover>a {
+  background: #493627;
+  color: #fff;
+}
+.main-nav .nav-pills>li:hover>a:before {
+    content:'';
+    line-height: 0;
+    font-size: 0;
+    width: 0;
+    height: 0;
+    border-top: 40px solid #493627;
+    border-bottom: 0px solid transparent;
+    border-left: 0px solid transparent;
+    border-right: 7px solid transparent;
+    position: absolute;
+    top: 0;
+    right: -7px;
+}
+.main-nav .nav-pills>li:hover>a:after {
+    content:'';
+    line-height: 0;
+    font-size: 0;
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-bottom: 40px solid #493627;
+    border-left: 7px solid transparent;
+    border-right: 0px solid #493627;
+    position: absolute;
+    top: 0px;
+    left: -7px;
+}
