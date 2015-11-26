@@ -91,6 +91,6 @@
   height: 400px;
 }
 
-.sidebar-indicators .active {
+.sidebar-indicators a.active {
   background-color: #493627;
 }

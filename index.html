@@ -58,10 +58,23 @@
     </div>
     <div class='row'>
       <div class='col-md-2 sidebar-indicators'>
-        <!-- Artiles -->
-        <p><a data-target="#carousel" data-slide-to="0" class="active">Slide 1</a></p>
-        <p><a data-target="#carousel" data-slide-to="1">Slide 2</a></p>
-        <p><a data-target="#carousel" data-slide-to="2">Slide 3</a></p>
+        <!-- Nav tabs -->
+        <ul id='sidebar-tabs' class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#latest" aria-controls="latest" role="tab" data-toggle="tab">Latest</a></li>
+          <li role="presentation"><a href="#popular" aria-controls="popular" role="tab" data-toggle="tab">Popular</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane fade in active" id="latest">
+            <p><a data-target="#carousel" data-slide-to="0" class="active">Slide 1</a></p>
+            <p><a data-target="#carousel" data-slide-to="1">Slide 2</a></p>
+            <p><a data-target="#carousel" data-slide-to="2">Slide 3</a></p>
+          </div>
+          <div role="tabpanel" class="tab-pane fade" id="popular">
+            <p>Popular</p>
+          </div>
+        </div>
       </div>
       <div class="col-md-10">
         <div id="carousel" class="carousel slide" data-ride="carousel">
@@ -117,7 +130,7 @@
           // grab the active carousel indicator
           to_slide = $(".carousel-indicators .active").attr("data-slide-to");
           // remove the previous active class in the sidebar
-          $(".sidebar-indicators .active").removeClass("active");
+          $(".sidebar-indicators a.active").removeClass("active");
           // add the new active class in the sidebar
           $(".sidebar-indicators [data-slide-to=" + to_slide + "]").addClass("active");
         });

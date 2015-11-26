@@ -401,7 +401,8 @@
   ],
   "js": [
     "carousel.js",
+    "tab.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=c0346a6294360497690a"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=4478d48bea5a81735ab2"
 }
