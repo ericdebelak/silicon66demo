@@ -21,8 +21,6 @@
     <div class='logo pull-left'>
       <img src="images/Silicon66_Logo-03.png" alt="Silicon66" height="150">
     </div>
-    <div class='logo-after pull-left'>
-    </div>
     <div class='social-container'>
       <div class='container'>
         <div class="row">
@@ -67,14 +65,86 @@
         <!-- Tab panes -->
         <div class="tab-content">
           <div role="tabpanel" class="tab-pane fade in active" id="latest">
-            <p><a data-target="#carousel" data-slide-to="0" class="active">Slide 1</a></p>
-            <p><a data-target="#carousel" data-slide-to="1">Slide 2</a></p>
-            <p><a data-target="#carousel" data-slide-to="2">Slide 3</a></p>
-          </div>
+            <div class="container">
+              <a data-target="#carousel" data-slide-to="0" class="active">
+                <div class='row tab-article'>
+                  <div class='col-sm-3'>
+                    <img src='http://lorempixel.com/50/50/' class='img-responsive img-rounded'>
+                  </div>
+                  <div class='col-sm-9 no-padding'>
+                    <p class='dark no-bottom-margin'>Lorem ipsum dolor sit amet</p>
+                    <p class='light tab-post-meta no-top-margin'>Posted on Nov 30th | 50 Comments</p>
+                  </div>
+                </div>
+              </a>
+              <hr>
+              <a data-target="#carousel" data-slide-to="1">
+                <div class='row tab-article'>
+                  <div class='col-sm-3'>
+                    <img src='http://lorempixel.com/50/50/' class='img-responsive img-rounded'>
+                  </div>
+                  <div class='col-sm-9 no-padding'>
+                    <p class='dark no-bottom-margin'>Lorem ipsum dolor sit amet</p>
+                    <p class='light tab-post-meta no-top-margin'>Posted on Nov 30th | 50 Comments</p>
+                  </div>
+                </div>
+              </a>
+              <hr>
+              <a data-target="#carousel" data-slide-to="2">
+                <div class='row tab-article'>
+                  <div class='col-sm-3'>
+                    <img src='http://lorempixel.com/50/50/' class='img-responsive img-rounded'>
+                  </div>
+                  <div class='col-sm-9 no-padding'>
+                    <p class='dark no-bottom-margin'>Lorem ipsum dolor sit amet</p>
+                    <p class='light tab-post-meta no-top-margin'>Posted on Nov 30th | 50 Comments</p>
+                  </div>
+                </div>
+              </a>
+              <hr>
+            </div><!-- container -->
+          </div><!-- tab panel -->
           <div role="tabpanel" class="tab-pane fade" id="popular">
-            <p>Popular</p>
-          </div>
-        </div>
+            <div class="container">
+              <a data-target="#carousel" data-slide-to="0" class="active">
+                <div class='row tab-article'>
+                  <div class='col-sm-3'>
+                    <img src='http://lorempixel.com/50/50/' class='img-responsive img-rounded'>
+                  </div>
+                  <div class='col-sm-9 no-padding'>
+                    <p class='dark no-bottom-margin'>Lorem ipsum dolor sit amet</p>
+                    <p class='light tab-post-meta no-top-margin'>Posted on Nov 30th | 50 Comments</p>
+                  </div>
+                </div>
+              </a>
+              <hr>
+              <a data-target="#carousel" data-slide-to="1">
+                <div class='row tab-article'>
+                  <div class='col-sm-3'>
+                    <img src='http://lorempixel.com/50/50/' class='img-responsive img-rounded'>
+                  </div>
+                  <div class='col-sm-9 no-padding'>
+                    <p class='dark no-bottom-margin'>Lorem ipsum dolor sit amet</p>
+                    <p class='light tab-post-meta no-top-margin'>Posted on Nov 30th | 50 Comments</p>
+                  </div>
+                </div>
+              </a>
+              <hr>
+              <a data-target="#carousel" data-slide-to="2">
+                <div class='row tab-article'>
+                  <div class='col-sm-3'>
+                    <img src='http://lorempixel.com/50/50/' class='img-responsive img-rounded'>
+                  </div>
+                  <div class='col-sm-9 no-padding'>
+                    <p class='dark no-bottom-margin'>Lorem ipsum dolor sit amet</p>
+                    <p class='light tab-post-meta no-top-margin'>Posted on Nov 30th | 50 Comments</p>
+                  </div>
+                </div>
+              </a>
+              <hr>
+            </div><!-- container -->
+          </div><!-- tab panel -->
+        </div><!-- tab content -->
       </aside>
       <section class='content'>
         <div id="carousel" class="carousel slide" data-ride="carousel">
@@ -118,7 +188,7 @@
         </div>
         <div class="container body-container">
           <div class="row">
-            <div class='body-content col-md-9'>
+            <div class='body-content col-md-8'>
               <h4 class='green heading'>LATEST</h4>
               <div class='row article'>
                 <div class="col-md-4">
@@ -155,9 +225,39 @@
                 </div>
               </div>
             </div>
-            <div class='col-md-3'>
-              contributing
-            </div>
+            <div class='col-md-4 contributors'>
+              <h3>Featured Contributors</h3>
+              <div class="row contributor">
+                <div class='col-md-3'>
+                  <img src='http://lorempixel.com/400/400/' class='img-responsive img-rounded'>
+                </div>
+                <div class='col-md-9'>
+                  <p class='blue no-bottom-margin'>Constance Roberts</p>
+                  <h4 class='heading orange no-top-margin no-bottom-margin'>Hiking and Ideas</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                </div>
+              </div>
+              <div class="row contributor">
+                <div class='col-md-3'>
+                  <img src='http://lorempixel.com/400/400/' class='img-responsive img-rounded'>
+                </div>
+                <div class='col-md-9'>
+                  <p class='blue no-bottom-margin'>Constance Roberts</p>
+                  <h4 class='heading orange no-top-margin no-bottom-margin'>Hiking and Ideas</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                </div>
+              </div>
+              <div class="row contributor">
+                <div class='col-md-3'>
+                  <img src='http://lorempixel.com/400/400/' class='img-responsive img-rounded'>
+                </div>
+                <div class='col-md-9'>
+                  <p class='blue no-bottom-margin'>Constance Roberts</p>
+                  <h4 class='heading orange no-top-margin no-bottom-margin'>Hiking and Ideas</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                </div>
+              </div>
+            </div><!-- contributors -->
           </div><!-- row -->
         </div><!-- container -->
       </section>
