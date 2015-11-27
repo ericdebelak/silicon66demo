@@ -1,0 +1,251 @@
+/* LAYOUTS */
+.flex-box {
+  display: flex;
+}
+aside {
+  flex: 1;
+}
+
+/* LOGO */
+
+.logo {
+  background: #fca311;
+  padding-left: 150px;
+  padding-right: 25px;
+  position: relative;
+}
+
+.logo:before {
+    content:'';
+    line-height: 0;
+    font-size: 0;
+    width: 0;
+    height: 0;
+    border-top: 150px solid #fca311;
+    border-bottom: 0px solid transparent;
+    border-left: 0px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    top: 0;
+    right: -30px;
+}
+
+/* SOCIAL ICONS */
+.social-container {
+  height: 48px;
+  background: #00adc6;
+  margin-bottom: 40px;
+}
+.social-icons ul a {
+  color: #fff;
+  font-size: 20px;
+}
+
+/* MAIN NAVIGATION */
+.main-nav .nav-pills>li>a {
+  border-radius: 0px !important;
+  color: #493627;
+  text-transform: uppercase;
+}
+.main-nav .nav-pills>li.active>a, .main-nav .nav-pills>li.active:hover>a {
+  background: #8cd600;
+  color: #fff;
+}
+.main-nav .nav-pills>li.active>a:before, .main-nav .nav-pills>li.active:hover>a:before {
+    content:'';
+    line-height: 0;
+    font-size: 0;
+    width: 0;
+    height: 0;
+    border-top: 40px solid #8cd600;
+    border-bottom: 0px solid transparent;
+    border-left: 0px solid transparent;
+    border-right: 7px solid transparent;
+    position: absolute;
+    top: 0;
+    right: -7px;
+}
+.main-nav .nav-pills>li.active>a:after, .main-nav .nav-pills>li.active:hover>a:after {
+    content:'';
+    line-height: 0;
+    font-size: 0;
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-bottom: 40px solid #8cd600;
+    border-left: 7px solid transparent;
+    border-right: 0px solid #8cd600;
+    position: absolute;
+    top: 0px;
+    left: -7px;
+}
+.main-nav .nav-pills>li:hover>a {
+  background: #493627;
+  color: #fff;
+}
+.main-nav .nav-pills>li:hover>a:before {
+    content:'';
+    line-height: 0;
+    font-size: 0;
+    width: 0;
+    height: 0;
+    border-top: 40px solid #493627;
+    border-bottom: 0px solid transparent;
+    border-left: 0px solid transparent;
+    border-right: 7px solid transparent;
+    position: absolute;
+    top: 0;
+    right: -7px;
+}
+.main-nav .nav-pills>li:hover>a:after {
+    content:'';
+    line-height: 0;
+    font-size: 0;
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-bottom: 40px solid #493627;
+    border-left: 7px solid transparent;
+    border-right: 0px solid #493627;
+    position: absolute;
+    top: 0px;
+    left: -7px;
+}
+
+/* CAROUSEL */
+
+/*#carousel {
+  height: 400px;
+}*/
+
+.carousel-indicators {
+  display: none;
+}
+/* SIDEBAR */
+aside {
+  background: #f3f3f3;
+  box-shadow: 1px 0px 1px #999;
+  z-index: 9;
+  min-width: 250px;
+}
+
+aside .container {
+  width: 100%;
+}
+
+.sidebar-indicators a.active {
+  background-color: #493627;
+}
+
+#sidebar-tabs {
+  background: #00adc6;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+#sidebar-tabs a {
+  color: #fff;
+  background: #a59481;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#sidebar-tabs .active a {
+  color: #fca311;
+  background: #f3f3f3;
+}
+
+.tab-post-meta {
+  font-size: 10px;
+}
+
+.tab-article {
+  padding: 15px 0 0;
+}
+
+.active>.tab-article {
+  background-color: rgba(0,0,0,.2);
+}
+
+.tab-content hr {
+  margin: 0 auto;
+  width: 90%;
+}
+
+/* BODY CONTAINER */
+.body-container {
+  padding-left: 0;
+  width: 100%;
+}
+
+.body-content {
+  margin-top: -30px;
+  padding-top: 30px;
+  padding-left: 30px;
+  background: #fff;
+}
+
+.body-content:before {
+    content:'';
+    line-height: 0;
+    font-size: 0;
+    width: 0;
+    height: 0;
+    border-top: 40px solid #fff;
+    border-bottom: 0px solid transparent;
+    border-left: 0px solid transparent;
+    border-right: 7px solid transparent;
+    position: absolute;
+    top: 0;
+    right: -7px;
+}
+
+/* COLORS, TYPOGRAPHY, HELPERS */
+.heading {
+  font-weight: bold;
+}
+
+.green {
+  color: #8cd600;
+}
+
+.dark {
+  color: #483627
+}
+
+.light {
+  color: #a59481
+}
+
+.blue {
+  color: #00adc6
+}
+
+.orange {
+  color: #fca311
+}
+
+.no-bottom-margin {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.no-top-margin {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+/* ARTICLES */
+.article {
+  margin-bottom: 50px;
+}
+
+/* CONTRIBUTORS */
+.contributor {
+  margin-bottom: 25px;
+}
